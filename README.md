@@ -1,5 +1,6 @@
 # Efficient-Image-Restoration-through-Low-Rank-Adaptation-and-Stable-Diffusion-XL
 A Faster and Better Image Restoration Model
+## 📖[**Paper**](https://arxiv.org/submit/5822392/view)
 
 [Haiyang Zhao*](https://oceanshy12-YANG.github.io)
 
