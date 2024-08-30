@@ -34,6 +34,14 @@ We also conducted tests on low-quality images and compared them with other model
 
 LoRA reduces the complexity of the model through parameter decomposition, thereby reducing time. As shown in tab:3, the comparison between the original method and our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. However, StableSR requires 200 steps to generate a perfect image and consumes a lot of time. This efficiency gain demonstrates the effectiveness of our approach in handling large-scale models. Moreover, the reduction in computational time does not compromise the quality of the generated images, as evidenced by the consistent performance metrics. Moreover, fig:4, we can clearly see the differences between the stable SR model and other models, but its performance is not very good. The PASD model performs well in restoring details, such as in case 1. However, PASD has a low ability to restore images with high noise and blur. In case 2, it was unable to restore the windows of distant high-rise buildings and still had noise points in the restored images. In case 3, the restoration of the clock changed its original color.
 
+
+
+##  ⚡Computational Time and Model Comparison
+
+![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
+![对比](https://github.com/user-attachments/assets/f0d08f86-87c8-43ad-8cfd-618930d9c100)
+
+
 ## 🧩News
 Now, we are trying to train our own SDXL and apply lighting technology to achieve acceleration.
 
