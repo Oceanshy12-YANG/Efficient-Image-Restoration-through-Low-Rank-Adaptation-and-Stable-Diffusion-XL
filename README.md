@@ -8,11 +8,11 @@ In the image shown, we have added blur and SR to the real-world image. It can be
 ![耳钉](https://github.com/user-attachments/assets/635e2e5e-762e-4a7e-bc3c-d54d4dbcb3b9)
 
 
-## Data set
+## Dataset
 Large-scale CelebFaces Attributes (CelebA) Dataset, CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. We use 1300 of them as the dataset for face training.
 
 
-
+## Pipline
 
 ![pip一条线](https://github.com/user-attachments/assets/1d386e0c-c3ee-4929-9910-a529ef34ebae)
 
@@ -20,7 +20,7 @@ Large-scale CelebFaces Attributes (CelebA) Dataset, CelebFaces Attributes Datase
 
 
 
-## Experiments
+## 🔥Real-World Applications
 
 ### Face
 ![ppt图片](https://github.com/user-attachments/assets/2235387e-f6a2-4be7-a2df-bac8f84c1cee)
