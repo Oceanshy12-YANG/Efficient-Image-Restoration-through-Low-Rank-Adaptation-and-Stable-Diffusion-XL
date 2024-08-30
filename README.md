@@ -30,17 +30,17 @@ Compare with SUPIR. We apply a mixture of Gaussian blur with σ = 2 and 4× down
 ### Landscape
 ![MOXINGDUIBI1](https://github.com/user-attachments/assets/f9f9331c-2d83-4ca0-bb4a-0357c74786df)
 
-We also conducted tests on low-quality images and compared them with other models, such as DiffBIR, Stable-SR, PASD. We selected the following metrics for quantitative comparison: the  reference metrics PSNR, SSIM, LPIPS.In terms of results, our method achieved the best scores on PSNR and SSIM and LPIPS, indicating that our method has higher perceptual similarity between the restored image and the reference image than other methods.
 
-LoRA reduces the complexity of the model through parameter decomposition, thereby reducing time. As shown in tab:3, the comparison between the original method and our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. However, StableSR requires 200 steps to generate a perfect image and consumes a lot of time. This efficiency gain demonstrates the effectiveness of our approach in handling large-scale models. Moreover, the reduction in computational time does not compromise the quality of the generated images, as evidenced by the consistent performance metrics. Moreover, fig:4, we can clearly see the differences between the stable SR model and other models, but its performance is not very good. The PASD model performs well in restoring details, such as in case 1. However, PASD has a low ability to restore images with high noise and blur. In case 2, it was unable to restore the windows of distant high-rise buildings and still had noise points in the restored images. In case 3, the restoration of the clock changed its original color.
+Moreover, the reduction in computational time does not compromise the quality of the generated images, as evidenced by the consistent performance metrics. Moreover, we can clearly see the differences between the stable SR model and other models, but its performance is not very good. The PASD model performs well in restoring details, such as in case 1. However, PASD has a low ability to restore images with high noise and blur. In case 2, it was unable to restore the windows of distant high-rise buildings and still had noise points in the restored images. In case 3, the restoration of the clock changed its original color.
 
 
 
 ##  ⚡Computational Time and Model Comparison
 
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
+Our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. 
 ![对比](https://github.com/user-attachments/assets/f0d08f86-87c8-43ad-8cfd-618930d9c100)
-
+We also conducted tests on low-quality images and compared them with other models, such as DiffBIR, Stable-SR, PASD. We selected the following metrics for quantitative comparison: the  reference metrics PSNR, SSIM, LPIPS.In terms of results, our method achieved the best scores on PSNR and SSIM and LPIPS, indicating that our method has higher perceptual similarity between the restored image and the reference image than other methods.
 
 ## 🧩News
 Now, I am trying to train my own SDXL and apply lighting technology to achieve acceleration.
