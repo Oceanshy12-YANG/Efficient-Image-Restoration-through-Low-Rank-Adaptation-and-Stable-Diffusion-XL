@@ -20,6 +20,10 @@ Large-scale CelebFaces Attributes (CelebA) Dataset, CelebFaces Attributes Datase
 
 ## Experiments
 
-###face
+### Face
+![ppt图片](https://github.com/user-attachments/assets/2235387e-f6a2-4be7-a2df-bac8f84c1cee)
 
-###landscape
+Compare with SUPIR. We apply a mixture of Gaussian blur with σ = 2 and 4× downsampling for super-resolution degradation. Our method has a good restoration effect on facial details, such as scars. For the texture of hair and clothing, our model has a stronger effect than SUPIR.
+
+### Landscape
+![MOXINGDUIBI1](https://github.com/user-attachments/assets/f9f9331c-2d83-4ca0-bb4a-0357c74786df)
