@@ -1,5 +1,5 @@
 # Efficient-Image-Restoration-through-Low-Rank-Adaptation-and-Stable-Diffusion-XL
-A Faster and Better Image Restoration Model
+A Faster and Better Image Restoration Model(An improved version of a faster SUPIR model)
 ## 📖[**Paper**](https://arxiv.org/submit/5822392/view)
 
 [Haiyang Zhao*](https://oceanshy12-YANG.github.io)
@@ -43,5 +43,4 @@ LoRA reduces the complexity of the model through parameter decomposition, thereb
 
 
 ## 🧩News
-Now, we are trying to train our own SDXL and apply lighting technology to achieve acceleration.
-
+Now, I am trying to train my own SDXL and apply lighting technology to achieve acceleration.
