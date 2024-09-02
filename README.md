@@ -51,7 +51,7 @@ The performance of meta-learning is not stable for some properties. We report tw
 | SR ($\times 4$) |  Ours | 29.64 | 0.6382 | 0.0916 | 
 |  | Lighting-LoRA | 29.03 | 0.5795 | 0.1328 |
 |  | HWXL-LoRA |28.78 | 0.6004| 0.1265 |
-|  | SUPIR | \textbf{29.81} | 0.5934| 0.1432 | 
+|  | SUPIR | 29.81 | 0.5934| 0.1432 | 
 |  | Lighting | 29.63| 0.5357| 0.2250 | 
 |  | HWXL |28.64 | 0.5774| 0.1688|
 |  |  | | |  | 
@@ -66,7 +66,7 @@ The performance of meta-learning is not stable for some properties. We report tw
 |  | Lighting-LoRA | 17.44 | 0.2590 | 0.4075 |
 |  | HWXL-LoRA | 19.70 | 0.2705 | 0.2907 |
 |  | SUPIR | 18.57 | 0.2808 | 0.3225 |
-|  | Lighting | 17.39 | 0.1681 & 0.6379 |
+|  | Lighting | 17.39 | 0.1681 | 0.6379 |
 |  | HWXL | 20.94 | 0.2823 | 0.4472 |
 
 
