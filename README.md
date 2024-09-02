@@ -66,6 +66,7 @@ Moreover, the reduction in computational time does not compromise the quality of
 |  | SUPIR | 18.57 | 0.2808 | 0.3225 |
 |  | Lighting | 17.39 | 0.1681 | 0.6379 |
 |  | HWXL | 20.94 | 0.2823 | 0.4472 |
+
 We compared data across different methods under various degradation scenarios using three SDXL models: SDXL, SDXL-lighting, and HelloWorld-XL. The HelloWorld-XL model was trained on a dataset of 20,821 images, which included a diverse range of subjects, including various people, actions, and lifelike animals.
 
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
