@@ -1,6 +1,6 @@
 # Efficient-Image-Restoration-through-Low-Rank-Adaptation-and-Stable-Diffusion-XL
 A Faster and Better Image Restoration Model(An improved version of the SUPIR model)
-## 📖[**Paper**](https://arxiv.org/submit/5822392/view)
+## 📖[**Paper**](http://arxiv.org/abs/2408.17060)
 
 [Haiyang Zhao*](https://oceanshy12-YANG.github.io)
 
@@ -35,10 +35,8 @@ Moreover, the reduction in computational time does not compromise the quality of
 
 
 
-##  ⚡Computational Time and Model Comparison
-
-## Performance
-The performance of meta-learning is not stable for some properties. We report two times results and the number of the iteration where we obtain the best results here for your reference.
+##  ⚡Model Comparison and Computational Time
+ 
 |  Degradation  |  Method    | PSNR | SSIM   | LPIPS   |
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
 | Blur ($\sigma=3$) + Noise ($\sigma=30$) | Ours | 32.19 | 0.7434 | 0.0932 | 
@@ -68,10 +66,11 @@ The performance of meta-learning is not stable for some properties. We report tw
 |  | SUPIR | 18.57 | 0.2808 | 0.3225 |
 |  | Lighting | 17.39 | 0.1681 | 0.6379 |
 |  | HWXL | 20.94 | 0.2823 | 0.4472 |
-
+We compared data across different methods under various degradation scenarios using three SDXL models: SDXL, SDXL-lighting, and HelloWorld-XL. The HelloWorld-XL model was trained on a dataset of 20,821 images, which included a diverse range of subjects, including various people, actions, and lifelike animals.
 
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
 Our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. 
+
 ![对比](https://github.com/user-attachments/assets/f0d08f86-87c8-43ad-8cfd-618930d9c100)
 We also conducted tests on low-quality images and compared them with other models, such as DiffBIR, Stable-SR, PASD. We selected the following metrics for quantitative comparison: the  reference metrics PSNR, SSIM, LPIPS.In terms of results, our method achieved the best scores on PSNR and SSIM and LPIPS, indicating that our method has higher perceptual similarity between the restored image and the reference image than other methods.
 
