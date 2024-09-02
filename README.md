@@ -37,6 +37,23 @@ Moreover, the reduction in computational time does not compromise the quality of
 
 ##  ⚡Computational Time and Model Comparison
 
+## Performance
+The performance of meta-learning is not stable for some properties. We report two times results and the number of the iteration where we obtain the best results here for your reference.
+  & Degradation & PSNR$\uparrow$ & SSIM$\uparrow$ & LPIPS$\downa
+|  Degradation  |  Method    | PSNR | SSIM   | LPIPS   |
+| ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
+| Sider | Ours | 307/599 | Si-T1| 75.08/75.74 | 
+|  |  | | Si-T2| 69.44/69.34 | 
+|  |  | | Si-T3| 69.90/71.39 | 
+|  |  | | Si-T4| 71.78/73.60 | 
+|  |  | | Si-T5| 79.40/80.50 | 
+|  |  | | Si-T6| 71.59/72.35 | 
+|  |  | | Ave.| 72.87/73.82 | 
+| Tox21 | 1 | 1271/1415 | SR-HS | 73.72/73.90 | 
+|  |  | | SR-MMP | 78.56/79.62 |
+|  |  | | SR-p53| 77.50/77.91 |
+|  |  | | Ave.| 76.59/77.14 | 
+
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
 Our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. 
 ![对比](https://github.com/user-attachments/assets/f0d08f86-87c8-43ad-8cfd-618930d9c100)
