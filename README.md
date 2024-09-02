@@ -39,15 +39,8 @@ Moreover, the reduction in computational time does not compromise the quality of
 
 ## Performance
 The performance of meta-learning is not stable for some properties. We report two times results and the number of the iteration where we obtain the best results here for your reference.
-  & Degradation & PSNR$\uparrow$ & SSIM$\uparrow$ & LPIPS$\downa
 |  Degradation  |  Method    | PSNR | SSIM   | LPIPS   |
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
-& Lighting-LoRA & 29.03 & 0.5795 & 0.1328 \\
-    & HWXL-LoRA & 28.78 & 0.6004 & 0.1265 \\
-    & SUPIR & \textbf{29.81} & 0.5934 & 0.1432 \\
-    & Lighting & 28.57 & 0.5357 & 0.2250 \\
-    & HWXL & 28.64 & 0.5774 & 0.1688 \\
-
 | Sider | Ours | 32.19 | 0.7434 | 0.0932 | 
 |  | Lighting-LoRA | 29.37| 0.5834| 0.1232 | 
 |  | HWXL-LoRA | 28.87| 0.6025 | 0.1183 | 
@@ -55,10 +48,12 @@ The performance of meta-learning is not stable for some properties. We report tw
 |  | Lighting | 29.63| 0.5523| 0.2085 | 
 |  | HWXL |29.13 | 0.5856| 0.1490 | 
 |  |  | | |  | 
-| Tox21 | 1 | 1271/1415 | SR-HS | 73.72/73.90 | 
-|  |  | | SR-MMP | 78.56/79.62 |
-|  |  | | SR-p53| 77.50/77.91 |
-|  |  | | Ave.| 76.59/77.14 | 
+|  |  Ours | 29.64 | 0.6382 | 0.0916 | 
+|  | Lighting-LoRA | 29.03 | 0.5795 | 0.1328 |
+|  | HWXL-LoRA |28.78 | 0.6004| 0.1265 |
+|  | SUPIR | \textbf{29.81} | 0.5934| 0.1432 | 
+|  | Lighting | 29.63| 0.5357| 0.2250 | 
+|  | HWXL |28.64 | 0.5774| 0.1688|
 
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
 Our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. 
