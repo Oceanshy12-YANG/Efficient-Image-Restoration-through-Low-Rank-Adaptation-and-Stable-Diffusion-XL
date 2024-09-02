@@ -41,14 +41,14 @@ Moreover, the reduction in computational time does not compromise the quality of
 The performance of meta-learning is not stable for some properties. We report two times results and the number of the iteration where we obtain the best results here for your reference.
 |  Degradation  |  Method    | PSNR | SSIM   | LPIPS   |
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
-| Sider | Ours | 32.19 | 0.7434 | 0.0932 | 
+| Blur ($\sigma=3$) + Noise ($\sigma=30$) | Ours | 32.19 | 0.7434 | 0.0932 | 
 |  | Lighting-LoRA | 29.37| 0.5834| 0.1232 | 
 |  | HWXL-LoRA | 28.87| 0.6025 | 0.1183 | 
 |  | SUPIR | 29.46| 0.4203 | 0.1402 | 
 |  | Lighting | 29.63| 0.5523| 0.2085 | 
 |  | HWXL |29.13 | 0.5856| 0.1490 | 
 |  |  | | |  | 
-|  |  Ours | 29.64 | 0.6382 | 0.0916 | 
+| SR ($\times 4$) |  Ours | 29.64 | 0.6382 | 0.0916 | 
 |  | Lighting-LoRA | 29.03 | 0.5795 | 0.1328 |
 |  | HWXL-LoRA |28.78 | 0.6004| 0.1265 |
 |  | SUPIR | \textbf{29.81} | 0.5934| 0.1432 | 
