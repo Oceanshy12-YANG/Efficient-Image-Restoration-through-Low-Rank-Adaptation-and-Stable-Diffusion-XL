@@ -42,13 +42,19 @@ The performance of meta-learning is not stable for some properties. We report tw
   & Degradation & PSNR$\uparrow$ & SSIM$\uparrow$ & LPIPS$\downa
 |  Degradation  |  Method    | PSNR | SSIM   | LPIPS   |
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
-| Sider | Ours | 307/599 | Si-T1| 75.08/75.74 | 
-|  |  | | Si-T2| 69.44/69.34 | 
-|  |  | | Si-T3| 69.90/71.39 | 
-|  |  | | Si-T4| 71.78/73.60 | 
-|  |  | | Si-T5| 79.40/80.50 | 
-|  |  | | Si-T6| 71.59/72.35 | 
-|  |  | | Ave.| 72.87/73.82 | 
+& Lighting-LoRA & 29.03 & 0.5795 & 0.1328 \\
+    & HWXL-LoRA & 28.78 & 0.6004 & 0.1265 \\
+    & SUPIR & \textbf{29.81} & 0.5934 & 0.1432 \\
+    & Lighting & 28.57 & 0.5357 & 0.2250 \\
+    & HWXL & 28.64 & 0.5774 & 0.1688 \\
+
+| Sider | Ours | 32.19 | 0.7434 | 0.0932 | 
+|  | Lighting-LoRA | 29.37| 0.5834| 0.1232 | 
+|  | HWXL-LoRA | 28.87| 0.6025 | 0.1183 | 
+|  | SUPIR | 29.46| 0.4203 | 0.1402 | 
+|  | Lighting | 29.63| 0.5523| 0.2085 | 
+|  | HWXL |29.13 | 0.5856| 0.1490 | 
+|  |  | | |  | 
 | Tox21 | 1 | 1271/1415 | SR-HS | 73.72/73.90 | 
 |  |  | | SR-MMP | 78.56/79.62 |
 |  |  | | SR-p53| 77.50/77.91 |
