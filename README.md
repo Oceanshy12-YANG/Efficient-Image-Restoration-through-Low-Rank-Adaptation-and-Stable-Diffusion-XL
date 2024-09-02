@@ -54,6 +54,21 @@ The performance of meta-learning is not stable for some properties. We report tw
 |  | SUPIR | \textbf{29.81} | 0.5934| 0.1432 | 
 |  | Lighting | 29.63| 0.5357| 0.2250 | 
 |  | HWXL |28.64 | 0.5774| 0.1688|
+|  |  | | |  | 
+|  Blur ($\sigma=2$) + SR ($\times 4$) | Ours | 29.38 | 0.5651 | 0.1250 |
+|  | Lighting-LoRA | 28.11 | 0.5436 | 0.1414 |
+|  | HWXL-LoRA | 28.65 | 0.5609 | 0.1293 |
+|  | SUPIR | 27.75 | 0.4702 | 0.1306 |
+|  | Lighting | 27.33 | 0.4694 | 0.2880 |
+|  | HWXL | 28.78 | 0.5495 | 0.1803 |
+|  |  | | |  | 
+| Blur ($\sigma=2$) + SR ($\times 4$) + Noise ($\sigma=1$)} | Ours | 18.48 | 0.2881 | 0.3505 |
+|  | Lighting-LoRA | 17.44 | 0.2590 | 0.4075 |
+|  | HWXL-LoRA | 19.70 | 0.2705 | 0.2907 |
+|  | SUPIR | 18.57 | 0.2808 | 0.3225 |
+|  | Lighting | 17.39 | 0.1681 & 0.6379 |
+|  | HWXL | 20.94 | 0.2823 | 0.4472 |
+
 
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
 Our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. 
