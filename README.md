@@ -39,35 +39,35 @@ Moreover, the reduction in computational time does not compromise the quality of
  
 |  Degradation  |  Method    | PSNR | SSIM   | LPIPS   |
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
-| Blur ($\sigma=3$) + Noise ($\sigma=30$) | Ours | 32.19 | 0.7434 | 0.0932 | 
+| Blur ($\sigma=3$) + Noise ($\sigma=30$) | Ours | **32.19** | **0.7434** | **0.0932** | 
 |  | Lighting-LoRA | 29.37| 0.5834| 0.1232 | 
 |  | HWXL-LoRA | 28.87| 0.6025 | 0.1183 | 
 |  | SUPIR | 29.46| 0.4203 | 0.1402 | 
 |  | Lighting | 29.63| 0.5523| 0.2085 | 
 |  | HWXL |29.13 | 0.5856| 0.1490 | 
 |  |  | | |  | 
-| SR ($\times 4$) |  Ours | 29.64 | 0.6382 | 0.0916 | 
+| SR ($\times 4$) |  Ours | 29.64 | **0.6382** | **0.0916** | 
 |  | Lighting-LoRA | 29.03 | 0.5795 | 0.1328 |
 |  | HWXL-LoRA |28.78 | 0.6004| 0.1265 |
-|  | SUPIR | 29.81 | 0.5934| 0.1432 | 
+|  | SUPIR | **29.81** | 0.5934| 0.1432 | 
 |  | Lighting | 29.63| 0.5357| 0.2250 | 
 |  | HWXL |28.64 | 0.5774| 0.1688|
 |  |  | | |  | 
-|  Blur ($\sigma=2$) + SR ($\times 4$) | Ours | 29.38 | 0.5651 | 0.1250 |
+|  Blur ($\sigma=2$) + SR ($\times 4$) | Ours | **29.38** | **0.5651** | **0.1250** |
 |  | Lighting-LoRA | 28.11 | 0.5436 | 0.1414 |
 |  | HWXL-LoRA | 28.65 | 0.5609 | 0.1293 |
 |  | SUPIR | 27.75 | 0.4702 | 0.1306 |
 |  | Lighting | 27.33 | 0.4694 | 0.2880 |
 |  | HWXL | 28.78 | 0.5495 | 0.1803 |
 |  |  | | |  | 
-| Blur ($\sigma=2$) + SR ($\times 4$) + Noise ($\sigma=1$)} | Ours | 18.48 | 0.2881 | 0.3505 |
+| Blur ($\sigma=2$) + SR ($\times 4$) + Noise ($\sigma=1$)} | Ours | 18.48 | **0.2881** | 0.3505 |
 |  | Lighting-LoRA | 17.44 | 0.2590 | 0.4075 |
-|  | HWXL-LoRA | 19.70 | 0.2705 | 0.2907 |
+|  | HWXL-LoRA | 19.70 | 0.2705 | **0.2907** |
 |  | SUPIR | 18.57 | 0.2808 | 0.3225 |
 |  | Lighting | 17.39 | 0.1681 | 0.6379 |
-|  | HWXL | 20.94 | 0.2823 | 0.4472 |
+|  | HWXL | **20.94** | 0.2823 | 0.4472 |
 
-We compared data across different methods under various degradation scenarios using three SDXL models: SDXL, SDXL-lighting, and HelloWorld-XL. The HelloWorld-XL model was trained on a dataset of 20,821 images, which included a diverse range of subjects, including various people, actions, and lifelike animals.
+We compared data across different methods under various degradation scenarios using three SDXL models: SDXL, SDXL-lighting, and HelloWorld-XL. The HelloWorld-XL model was trained on a dataset of 20,821 images, which included a diverse range of subjects, including various people, actions, and lifelike animals. In this table, we bold the optimal results, which shows that in most cases, the best results were obtained using the trained Lora.
 
 ![时间表格对比](https://github.com/user-attachments/assets/f02460bb-e359-4860-8c78-1e6959434f4f)
 Our method shows that the LoRA method has improved by nearly 7 seconds compared to before. Compared with the other two models, our method still has the shortest time. 
